@@ -327,7 +327,8 @@ img {
     left: -12%;
 }*/
 
-.meetClintTitle::after {
+
+/* .meetClintTitle::after {
     text-align: center;
     content: "";
     color: var(--blue);
@@ -338,7 +339,7 @@ img {
     background-color: var(--blue);
     position: absolute;
     right: 30%;
-}
+} */
 
 .meetClintTitle h3::after {
     display: none;
@@ -346,4 +347,17 @@ img {
 
 .meetClintTitle h3::before {
     left: 31%;
+}
+
+.call-icon {
+    font-size: 100px;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-45%);
+    opacity: 0.3;
+    left: -7%;
+}
+
+.call-icon:hover {
+    color: #fff !important;
 }
