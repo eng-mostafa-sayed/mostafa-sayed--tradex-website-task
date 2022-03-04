@@ -278,8 +278,6 @@ h3::after {
     border-top: 3px solid !important;
 }
 
-.ele:hover {}
-
 img {
     max-width: 100%;
     box-sizing: border-box;
@@ -307,34 +305,6 @@ img {
     margin-left: 25%;
     box-sizing: border-box;
 }
-
-
-/*.meetClintTitle::before {
-    text-align: center;
-    content: "";
-    color: var(--blue);
-    display: inline-block;
-    width: 10%;
-    height: 3px;
-    top: 65%;
-    background-color: var(--blue);
-    position: absolute;
-    left: -12%;
-}*/
-
-
-/* .meetClintTitle::after {
-    text-align: center;
-    content: "";
-    color: var(--blue);
-    display: inline-block;
-    width: 10%;
-    height: 4px;
-    top: 7%;
-    background-color: var(--blue);
-    position: absolute;
-    right: 30%;
-} */
 
 .meetClintTitle h3::after {
     display: none;
@@ -421,4 +391,9 @@ footer {
 
 .cardd:hover .hidd {
     display: inline-block !important;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
 }
