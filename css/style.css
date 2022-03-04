@@ -396,7 +396,7 @@ footer {
     opacity: 0.5;
 }
 
-#scrollUp {
+#scrollUpBtn {
     background-color: var(--blue);
     border-radius: 50%;
     bottom: 60px;
@@ -415,7 +415,7 @@ footer {
     display: block;
 }
 
-#scrollUp i:hover {
+#scrollUpBtn i:hover {
     color: white !important;
 }
 
