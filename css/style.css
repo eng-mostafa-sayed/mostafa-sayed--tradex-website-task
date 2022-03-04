@@ -361,3 +361,22 @@ img {
 .call-icon:hover {
     color: #fff !important;
 }
+
+footer {
+    background-color: #222;
+}
+
+.shadow-div {
+    box-shadow: 0px 0px 4px lightgrey inset;
+}
+
+.foot-hr {
+    width: 20% !important;
+    height: 2px !important;
+    border-top: 3px solid !important;
+}
+
+.foot-btns {
+    width: 70% !important;
+    width: fit-content !important;
+}
