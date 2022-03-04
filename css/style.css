@@ -193,6 +193,16 @@ i:hover {
     display: inline;
 }
 
+.up {
+    width: 100%;
+    top: 100%;
+    position: absolute;
+}
+
+.members:hover .up {
+    top: 77% !important;
+}
+
 .hovvv:hover {
     background-color: var(--green);
     text-decoration: none !important;
