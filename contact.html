@@ -137,26 +137,30 @@
             </div>
             <div role="form" class="wpcf7" id="wpcf7-f137-p16-o1" lang="en-US" dir="ltr">
                 <div class="screen-reader-response"></div>
-                <form action="" method="post" class="">
+                <form id="myForm" action="" method="post" class="">
                     <div class="">
                         <div class="d-flex flex-row justify-content-between mt-5 mb-5">
                             <div class="d-inline-block border-bottom border-dark col-4 mx-2">
                                 <i class="fa-solid fa-user-large d-inline-block text-black"></i>
-                                <input type="text" class="border-0" name="name" value="" size="40" placeholder="Name">
+                                <input autocomplete="off" id="userName" type="text" class="border-0" name="name" value="" size="40" placeholder="Name">
+                                <label class="d-none"></label>
                             </div>
 
                             <div class="d-inline-block border-bottom border-dark col-4 mx-2">
                                 <i class="fa-solid fa-envelope d-inline-block text-black"></i>
-                                <input type="text" class="border-0" name="name" value="" size="40" placeholder="Email">
+                                <input id="userEmail" type="text" class="border-0" name="name" value="" size="40" placeholder="Email">
+                                <label class="d-none"></label>
                             </div>
                             <div class="d-inline-block border-bottom border-dark col-4 mx-2">
                                 <i class="fa fa-pencil d-inline-block text-black"></i>
-                                <input type="text" class="border-0" name="name" value="" size="40" placeholder="Subject">
+                                <input id="userLastName" type="text" class="border-0" name="name" value="" size="40" placeholder="Last name">
+                                <label class="d-none"></label>
                             </div>
                         </div>
                         <div class="col-md-12 d-flex  border-bottom border-dark">
                             <i class="fa fa-pencil d-inline-block text-black"></i>
-                            <textarea style="width: 100%;" name="message" class="border-0 d-inline-block mb-3" placeholder="Your Message"></textarea>
+                            <textarea id="userMessage" style="width: 100%;" name="message" class="border-0 d-inline-block mb-3" placeholder="Your Message"></textarea>
+                            <label class="d-none"></label>
                         </div>
                         <div class="col-md-12">
                             <input class="btn border rounded-pill mb-4 mt-4 fs-lg-3 bg-primary fw-bold text-white py-3 px-md-5 px-lg-3 px-sm-2" type="submit" value="Send Message">
@@ -237,21 +241,21 @@
                     <p class="fw-bold fs-2 text-light">Popular</p>
                     <hr class="foot-hr text-primary border-primary">
                     <div>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Accountancy</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Affiliate</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">branding</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Construction</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Design</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Drupal</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Education</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Graphics</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Joomla</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Marketing</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Money</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Tally</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Transform</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Website</a>
-                        <a href="#" class="foot-btns d-inline-block btn border rounded-pill bg-white text-black">Wordpress</a></div>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Accountancy</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Affiliate</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">branding</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Construction</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Design</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Drupal</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Education</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Graphics</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Joomla</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Marketing</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Money</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Tally</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Transform</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Website</a>
+                        <a href="#" class="foot-btns mt-1 mb-1 d-inline-block btn border rounded-pill bg-white text-black">Wordpress</a></div>
                 </div>
 
                 <!--end of the third col-->
@@ -272,8 +276,8 @@
     <a id="scrollUpBtn" href="#">
         <i class="fa fa-angle-up"></i>
     </a>
-    ///////////////
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="js/validation.js"></script>
 </body>
 
 </html>
